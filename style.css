@@ -125,3 +125,17 @@ header nav .nav-menu li a::after{
     text-underline-offset: 12px;
     cursor: pointer;
 }
+
+.social-icons{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 4;
+}
+
+.social-icons i{
+    font-size: 1.1rem;
+    margin-right: 10px;
+    color: #fff;
+    
+}
