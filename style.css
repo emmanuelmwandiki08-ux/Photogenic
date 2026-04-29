@@ -123,4 +123,5 @@ header nav .nav-menu li a::after{
     letter-spacing: 3px;
     text-decoration: underline;
     text-underline-offset: 12px;
+    cursor: pointer;
 }
