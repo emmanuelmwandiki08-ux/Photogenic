@@ -81,6 +81,9 @@ header nav .nav-menu li a::after{
     background-size: cover;
     background-position: center;
     position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
 }
 
 .hero-section::after{
@@ -90,4 +93,19 @@ header nav .nav-menu li a::after{
     background-color: rgba(0,0,0,0.562);
     top: 0;
     left: 0;
+    z-index: 2;
+}
+
+.hero-section .content-box{
+    max-width: 700px;
+    color: #000;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+}
+
+.hero-section .content-box h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
 }
