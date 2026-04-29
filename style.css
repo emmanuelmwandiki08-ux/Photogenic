@@ -82,3 +82,12 @@ header nav .nav-menu li a::after{
     background-position: center;
     position: relative;
 }
+
+.hero-section::after{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.562);
+    top: 0;
+    left: 0;
+}
