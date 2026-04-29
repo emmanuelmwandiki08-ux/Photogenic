@@ -33,7 +33,7 @@ header nav .nav-menu{
 
 header nav .nav-menu li a{
     text-decoration: none;
-    color: #fff;
+    color: #d44a0b;
     font-size: 1.1rem;
     position: relative;
 }
@@ -69,14 +69,13 @@ header nav .nav-menu li a::after{
 
 .buy-now:hover{
     background-color: orange;
-    color: #fff;
+    color: #d44a0b;
 }
 
-<!------Hero Section----->
 .hero-section{
     width: 100%;
     height: 100vh;
-    background: url(background.jpeg);
+    background-image: url("background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,7 +97,7 @@ header nav .nav-menu li a::after{
 
 .hero-section .content-box{
     max-width: 700px;
-    color: #000;
+    color: #d44a0b;
     position: absolute;
     z-index: 3;
     text-align: center;
